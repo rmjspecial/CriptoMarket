@@ -9,12 +9,9 @@ This web App uses a real live data from the Blockchain API. It's a web applicati
 - Bootstrap
 - CSS
 
-## screenshoot
-![mockup](/src/assets/images/full view (2).PNG?raw=true "mockup")
-
 ## Live Demo Link
 
-[netlify]()
+[netlify](https://illustrious-druid-91850e.netlify.app/)
 ## Getting Started
 
 **To get a local copy up clone the repo or download the full souce code**
