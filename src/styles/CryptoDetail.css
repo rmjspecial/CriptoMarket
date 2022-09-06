@@ -1,0 +1,50 @@
+.singleCoinDetail {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.2rem;
+  list-style: none;
+  background: #4369b2;
+  color: #fff;
+  padding: 0% 0.3rem;
+}
+
+.singleCoinDetail li {
+  align-content: center;
+  transition: 0.5s ease-in-out;
+}
+
+.singleCoinDetail li:hover {
+  background: #042a72;
+}
+
+.singleCoinDetail li:nth-child(even) {
+  background: #3e62a4;
+}
+
+.list-items:hover {
+  background: #042a72;
+  transition: 0.5s;
+  transform: scale(0.9);
+}
+
+.singleCoinDetail li:nth-child(odd) {
+  background: #355ba3;
+}
+
+.singleCoinDetail p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.coin-detail-title {
+  width: 100%;
+  margin: auto;
+  background-color: #a33556;
+  padding: 0.5rem 0;
+  margin-bottom: 0%;
+  border-bottom: 1px solid #4369b2;
+  color: #fff;
+  text-align: center;
+}
