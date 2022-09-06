@@ -1,0 +1,129 @@
+.coinContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.08rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #6a88be;
+  width: 100%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.singleCoin {
+  background: #a83062;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0% 0.5rem;
+}
+
+.singleCoin span a {
+  font-size: 18px;
+}
+
+.singleCoin:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
+.coins-title {
+  color: #fff;
+  font-size: 18px;
+}
+
+.coin-title-container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 0.5rem;
+  background: #b2436d;
+  margin-bottom: 0%;
+  border-bottom: 1px solid #a7325f;
+  border-top: 1px solid #a83058;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.form {
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  padding: 0.15rem 0;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form input {
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  color: #fff;
+  padding-left: 0.5rem;
+  margin-left: 0%;
+  background: #b24368;
+  height: 100%;
+}
+
+.form button {
+  outline: none;
+  border: none;
+  background: transparent;
+  margin-right: 0.3rem;
+  border-radius: 50%;
+}
+
+.form button i {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.form input::placeholder {
+  color: #fff;
+  padding-left: 0.5rem;
+}
+
+.singleCoin p {
+  padding: 0%;
+  margin: 0%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.singleCoin span {
+  align-self: flex-end;
+}
+
+@media (max-width: 400px) {
+  .form {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+  }
+
+  .form input {
+    padding-left: 0.3rem;
+  }
+
+  .coin-title-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .coins-title {
+    display: none;
+  }
+
+  .form input::placeholder {
+    font-size: 20px;
+  }
+}
